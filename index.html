@@ -1,375 +1,992 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <title>ARC REFORMAS</title>
-    <link rel="icon" type="image/x-icon" href="acets/favico.png">
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="acets/log.jpeg" alt="ARC REFORMAS" class="img-fluid"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Nós</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#resp">Responsáveis</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#conts">Contato</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>    
-    <main>
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="acets/imgcar.png" class="d-block" alt="...">
-            <div class="carousel-caption  d-md-block">
-              <h2>Construção e<br> Manutenção Civil</h2>
-              <a href="#conts"><button> Entre em Contato</button></a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="acets/canos.png" class="d-block" alt="...">
-            <div class="carousel-caption  d-md-block">
-              <h2>Tubulação <br>de Gás</h2> 
-              <a href="#conts"><button> Entre em Contato</button></a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="acets/maq.png" class="d-block" alt="...">
-            <div class="carousel-caption  d-md-block">
-              <h2>Inspeção de Máquinas e Equipamentos</h2> 
-              <a href="#conts"><button> Entre em Contato</button></a>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-      </div>
-      
-    <section id="sobre" class="about">
+	<meta charset="UTF-8">
+		<title>missiasempreiteiro.com.br</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel="alternate" type="application/rss+xml" title="Feed para missiasempreiteiro.com.br &raquo;" href="https://missiasempreiteiro.com.br/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para missiasempreiteiro.com.br &raquo;" href="https://missiasempreiteiro.com.br/comments/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/missiasempreiteiro.com.br\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.3.2"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css' href='https://missiasempreiteiro.com.br/wp-includes/css/dist/block-library/style.min.css?ver=6.3.2' media='all' />
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='hello-elementor-css' href='https://missiasempreiteiro.com.br/wp-content/themes/hello-elementor/style.min.css?ver=2.8.1' media='all' />
+<link rel='stylesheet' id='hello-elementor-theme-style-css' href='https://missiasempreiteiro.com.br/wp-content/themes/hello-elementor/theme.min.css?ver=2.8.1' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://missiasempreiteiro.com.br/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.16.3' media='all' />
+<style id='elementor-frontend-inline-css'>
+@-webkit-keyframes ha_fadeIn{0%{opacity:0}to{opacity:1}}@keyframes ha_fadeIn{0%{opacity:0}to{opacity:1}}@-webkit-keyframes ha_zoomIn{0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%{opacity:1}}@keyframes ha_zoomIn{0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%{opacity:1}}@-webkit-keyframes ha_rollIn{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0) rotate3d(0,0,1,-120deg);transform:translate3d(-100%,0,0) rotate3d(0,0,1,-120deg)}to{opacity:1}}@keyframes ha_rollIn{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0) rotate3d(0,0,1,-120deg);transform:translate3d(-100%,0,0) rotate3d(0,0,1,-120deg)}to{opacity:1}}@-webkit-keyframes ha_bounce{0%,20%,53%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}40%,43%{-webkit-transform:translate3d(0,-30px,0) scaleY(1.1);transform:translate3d(0,-30px,0) scaleY(1.1);-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}70%{-webkit-transform:translate3d(0,-15px,0) scaleY(1.05);transform:translate3d(0,-15px,0) scaleY(1.05);-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}80%{-webkit-transition-timing-function:cubic-bezier(.215,.61,.355,1);transition-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translate3d(0,0,0) scaleY(.95);transform:translate3d(0,0,0) scaleY(.95)}90%{-webkit-transform:translate3d(0,-4px,0) scaleY(1.02);transform:translate3d(0,-4px,0) scaleY(1.02)}}@keyframes ha_bounce{0%,20%,53%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}40%,43%{-webkit-transform:translate3d(0,-30px,0) scaleY(1.1);transform:translate3d(0,-30px,0) scaleY(1.1);-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}70%{-webkit-transform:translate3d(0,-15px,0) scaleY(1.05);transform:translate3d(0,-15px,0) scaleY(1.05);-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}80%{-webkit-transition-timing-function:cubic-bezier(.215,.61,.355,1);transition-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translate3d(0,0,0) scaleY(.95);transform:translate3d(0,0,0) scaleY(.95)}90%{-webkit-transform:translate3d(0,-4px,0) scaleY(1.02);transform:translate3d(0,-4px,0) scaleY(1.02)}}@-webkit-keyframes ha_bounceIn{0%,20%,40%,60%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}to{opacity:1}}@keyframes ha_bounceIn{0%,20%,40%,60%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}to{opacity:1}}@-webkit-keyframes ha_flipInX{0%{opacity:0;-webkit-transform:perspective(400px) rotate3d(1,0,0,90deg);transform:perspective(400px) rotate3d(1,0,0,90deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotate3d(1,0,0,-20deg);transform:perspective(400px) rotate3d(1,0,0,-20deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}60%{opacity:1;-webkit-transform:perspective(400px) rotate3d(1,0,0,10deg);transform:perspective(400px) rotate3d(1,0,0,10deg)}80%{-webkit-transform:perspective(400px) rotate3d(1,0,0,-5deg);transform:perspective(400px) rotate3d(1,0,0,-5deg)}}@keyframes ha_flipInX{0%{opacity:0;-webkit-transform:perspective(400px) rotate3d(1,0,0,90deg);transform:perspective(400px) rotate3d(1,0,0,90deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotate3d(1,0,0,-20deg);transform:perspective(400px) rotate3d(1,0,0,-20deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}60%{opacity:1;-webkit-transform:perspective(400px) rotate3d(1,0,0,10deg);transform:perspective(400px) rotate3d(1,0,0,10deg)}80%{-webkit-transform:perspective(400px) rotate3d(1,0,0,-5deg);transform:perspective(400px) rotate3d(1,0,0,-5deg)}}@-webkit-keyframes ha_flipInY{0%{opacity:0;-webkit-transform:perspective(400px) rotate3d(0,1,0,90deg);transform:perspective(400px) rotate3d(0,1,0,90deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotate3d(0,1,0,-20deg);transform:perspective(400px) rotate3d(0,1,0,-20deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}60%{opacity:1;-webkit-transform:perspective(400px) rotate3d(0,1,0,10deg);transform:perspective(400px) rotate3d(0,1,0,10deg)}80%{-webkit-transform:perspective(400px) rotate3d(0,1,0,-5deg);transform:perspective(400px) rotate3d(0,1,0,-5deg)}}@keyframes ha_flipInY{0%{opacity:0;-webkit-transform:perspective(400px) rotate3d(0,1,0,90deg);transform:perspective(400px) rotate3d(0,1,0,90deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}40%{-webkit-transform:perspective(400px) rotate3d(0,1,0,-20deg);transform:perspective(400px) rotate3d(0,1,0,-20deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}60%{opacity:1;-webkit-transform:perspective(400px) rotate3d(0,1,0,10deg);transform:perspective(400px) rotate3d(0,1,0,10deg)}80%{-webkit-transform:perspective(400px) rotate3d(0,1,0,-5deg);transform:perspective(400px) rotate3d(0,1,0,-5deg)}}@-webkit-keyframes ha_swing{20%{-webkit-transform:rotate3d(0,0,1,15deg);transform:rotate3d(0,0,1,15deg)}40%{-webkit-transform:rotate3d(0,0,1,-10deg);transform:rotate3d(0,0,1,-10deg)}60%{-webkit-transform:rotate3d(0,0,1,5deg);transform:rotate3d(0,0,1,5deg)}80%{-webkit-transform:rotate3d(0,0,1,-5deg);transform:rotate3d(0,0,1,-5deg)}}@keyframes ha_swing{20%{-webkit-transform:rotate3d(0,0,1,15deg);transform:rotate3d(0,0,1,15deg)}40%{-webkit-transform:rotate3d(0,0,1,-10deg);transform:rotate3d(0,0,1,-10deg)}60%{-webkit-transform:rotate3d(0,0,1,5deg);transform:rotate3d(0,0,1,5deg)}80%{-webkit-transform:rotate3d(0,0,1,-5deg);transform:rotate3d(0,0,1,-5deg)}}@-webkit-keyframes ha_slideInDown{0%{visibility:visible;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}}@keyframes ha_slideInDown{0%{visibility:visible;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}}@-webkit-keyframes ha_slideInUp{0%{visibility:visible;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}@keyframes ha_slideInUp{0%{visibility:visible;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}@-webkit-keyframes ha_slideInLeft{0%{visibility:visible;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}@keyframes ha_slideInLeft{0%{visibility:visible;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}@-webkit-keyframes ha_slideInRight{0%{visibility:visible;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}@keyframes ha_slideInRight{0%{visibility:visible;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}.ha_fadeIn{-webkit-animation-name:ha_fadeIn;animation-name:ha_fadeIn}.ha_zoomIn{-webkit-animation-name:ha_zoomIn;animation-name:ha_zoomIn}.ha_rollIn{-webkit-animation-name:ha_rollIn;animation-name:ha_rollIn}.ha_bounce{-webkit-transform-origin:center bottom;-ms-transform-origin:center bottom;transform-origin:center bottom;-webkit-animation-name:ha_bounce;animation-name:ha_bounce}.ha_bounceIn{-webkit-animation-name:ha_bounceIn;animation-name:ha_bounceIn;-webkit-animation-duration:.75s;-webkit-animation-duration:calc(var(--animate-duration)*.75);animation-duration:.75s;animation-duration:calc(var(--animate-duration)*.75)}.ha_flipInX,.ha_flipInY{-webkit-animation-name:ha_flipInX;animation-name:ha_flipInX;-webkit-backface-visibility:visible!important;backface-visibility:visible!important}.ha_flipInY{-webkit-animation-name:ha_flipInY;animation-name:ha_flipInY}.ha_swing{-webkit-transform-origin:top center;-ms-transform-origin:top center;transform-origin:top center;-webkit-animation-name:ha_swing;animation-name:ha_swing}.ha_slideInDown{-webkit-animation-name:ha_slideInDown;animation-name:ha_slideInDown}.ha_slideInUp{-webkit-animation-name:ha_slideInUp;animation-name:ha_slideInUp}.ha_slideInLeft{-webkit-animation-name:ha_slideInLeft;animation-name:ha_slideInLeft}.ha_slideInRight{-webkit-animation-name:ha_slideInRight;animation-name:ha_slideInRight}.ha-css-transform-yes{-webkit-transition-duration:var(--ha-tfx-transition-duration, .2s);transition-duration:var(--ha-tfx-transition-duration, .2s);-webkit-transition-property:-webkit-transform;transition-property:transform;transition-property:transform,-webkit-transform;-webkit-transform:translate(var(--ha-tfx-translate-x, 0),var(--ha-tfx-translate-y, 0)) scale(var(--ha-tfx-scale-x, 1),var(--ha-tfx-scale-y, 1)) skew(var(--ha-tfx-skew-x, 0),var(--ha-tfx-skew-y, 0)) rotateX(var(--ha-tfx-rotate-x, 0)) rotateY(var(--ha-tfx-rotate-y, 0)) rotateZ(var(--ha-tfx-rotate-z, 0));transform:translate(var(--ha-tfx-translate-x, 0),var(--ha-tfx-translate-y, 0)) scale(var(--ha-tfx-scale-x, 1),var(--ha-tfx-scale-y, 1)) skew(var(--ha-tfx-skew-x, 0),var(--ha-tfx-skew-y, 0)) rotateX(var(--ha-tfx-rotate-x, 0)) rotateY(var(--ha-tfx-rotate-y, 0)) rotateZ(var(--ha-tfx-rotate-z, 0))}.ha-css-transform-yes:hover{-webkit-transform:translate(var(--ha-tfx-translate-x-hover, var(--ha-tfx-translate-x, 0)),var(--ha-tfx-translate-y-hover, var(--ha-tfx-translate-y, 0))) scale(var(--ha-tfx-scale-x-hover, var(--ha-tfx-scale-x, 1)),var(--ha-tfx-scale-y-hover, var(--ha-tfx-scale-y, 1))) skew(var(--ha-tfx-skew-x-hover, var(--ha-tfx-skew-x, 0)),var(--ha-tfx-skew-y-hover, var(--ha-tfx-skew-y, 0))) rotateX(var(--ha-tfx-rotate-x-hover, var(--ha-tfx-rotate-x, 0))) rotateY(var(--ha-tfx-rotate-y-hover, var(--ha-tfx-rotate-y, 0))) rotateZ(var(--ha-tfx-rotate-z-hover, var(--ha-tfx-rotate-z, 0)));transform:translate(var(--ha-tfx-translate-x-hover, var(--ha-tfx-translate-x, 0)),var(--ha-tfx-translate-y-hover, var(--ha-tfx-translate-y, 0))) scale(var(--ha-tfx-scale-x-hover, var(--ha-tfx-scale-x, 1)),var(--ha-tfx-scale-y-hover, var(--ha-tfx-scale-y, 1))) skew(var(--ha-tfx-skew-x-hover, var(--ha-tfx-skew-x, 0)),var(--ha-tfx-skew-y-hover, var(--ha-tfx-skew-y, 0))) rotateX(var(--ha-tfx-rotate-x-hover, var(--ha-tfx-rotate-x, 0))) rotateY(var(--ha-tfx-rotate-y-hover, var(--ha-tfx-rotate-y, 0))) rotateZ(var(--ha-tfx-rotate-z-hover, var(--ha-tfx-rotate-z, 0)))}.happy-addon>.elementor-widget-container{word-wrap:break-word;overflow-wrap:break-word}.happy-addon>.elementor-widget-container,.happy-addon>.elementor-widget-container *{-webkit-box-sizing:border-box;box-sizing:border-box}.happy-addon p:empty{display:none}.happy-addon .elementor-inline-editing{min-height:auto!important}.happy-addon-pro img{max-width:100%;height:auto;-o-object-fit:cover;object-fit:cover}.ha-screen-reader-text{position:absolute;overflow:hidden;clip:rect(1px,1px,1px,1px);margin:-1px;padding:0;width:1px;height:1px;border:0;word-wrap:normal!important;-webkit-clip-path:inset(50%);clip-path:inset(50%)}.ha-has-bg-overlay>.elementor-widget-container{position:relative;z-index:1}.ha-has-bg-overlay>.elementor-widget-container:before{position:absolute;top:0;left:0;z-index:-1;width:100%;height:100%;content:""}.ha-popup--is-enabled .ha-js-popup,.ha-popup--is-enabled .ha-js-popup img{cursor:-webkit-zoom-in!important;cursor:zoom-in!important}.mfp-wrap .mfp-arrow,.mfp-wrap .mfp-close{background-color:transparent}.mfp-wrap .mfp-arrow:focus,.mfp-wrap .mfp-close:focus{outline-width:thin}.ha-advanced-tooltip-enable{position:relative;cursor:pointer;--ha-tooltip-arrow-color:black;--ha-tooltip-arrow-distance:0}.ha-advanced-tooltip-enable .ha-advanced-tooltip-content{position:absolute;z-index:999;display:none;padding:5px 0;width:120px;height:auto;border-radius:6px;background-color:#000;color:#fff;text-align:center;opacity:0}.ha-advanced-tooltip-enable .ha-advanced-tooltip-content::after{position:absolute;border-width:5px;border-style:solid;content:""}.ha-advanced-tooltip-enable .ha-advanced-tooltip-content.no-arrow::after{visibility:hidden}.ha-advanced-tooltip-enable .ha-advanced-tooltip-content.show{display:inline-block;opacity:1}.ha-advanced-tooltip-enable.ha-advanced-tooltip-top .ha-advanced-tooltip-content,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-top .ha-advanced-tooltip-content{top:unset;right:0;bottom:calc(101% + var(--ha-tooltip-arrow-distance));left:0;margin:0 auto}.ha-advanced-tooltip-enable.ha-advanced-tooltip-top .ha-advanced-tooltip-content::after,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-top .ha-advanced-tooltip-content::after{top:100%;right:unset;bottom:unset;left:50%;border-color:var(--ha-tooltip-arrow-color) transparent transparent transparent;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}.ha-advanced-tooltip-enable.ha-advanced-tooltip-bottom .ha-advanced-tooltip-content,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-bottom .ha-advanced-tooltip-content{top:calc(101% + var(--ha-tooltip-arrow-distance));right:0;bottom:unset;left:0;margin:0 auto}.ha-advanced-tooltip-enable.ha-advanced-tooltip-bottom .ha-advanced-tooltip-content::after,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-bottom .ha-advanced-tooltip-content::after{top:unset;right:unset;bottom:100%;left:50%;border-color:transparent transparent var(--ha-tooltip-arrow-color) transparent;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}.ha-advanced-tooltip-enable.ha-advanced-tooltip-left .ha-advanced-tooltip-content,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-left .ha-advanced-tooltip-content{top:50%;right:calc(101% + var(--ha-tooltip-arrow-distance));bottom:unset;left:unset;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.ha-advanced-tooltip-enable.ha-advanced-tooltip-left .ha-advanced-tooltip-content::after,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-left .ha-advanced-tooltip-content::after{top:50%;right:unset;bottom:unset;left:100%;border-color:transparent transparent transparent var(--ha-tooltip-arrow-color);-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.ha-advanced-tooltip-enable.ha-advanced-tooltip-right .ha-advanced-tooltip-content,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-right .ha-advanced-tooltip-content{top:50%;right:unset;bottom:unset;left:calc(101% + var(--ha-tooltip-arrow-distance));-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.ha-advanced-tooltip-enable.ha-advanced-tooltip-right .ha-advanced-tooltip-content::after,body[data-elementor-device-mode=tablet] .ha-advanced-tooltip-enable.ha-advanced-tooltip-tablet-right .ha-advanced-tooltip-content::after{top:50%;right:100%;bottom:unset;left:unset;border-color:transparent var(--ha-tooltip-arrow-color) transparent transparent;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-top .ha-advanced-tooltip-content{top:unset;right:0;bottom:calc(101% + var(--ha-tooltip-arrow-distance));left:0;margin:0 auto}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-top .ha-advanced-tooltip-content::after{top:100%;right:unset;bottom:unset;left:50%;border-color:var(--ha-tooltip-arrow-color) transparent transparent transparent;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-bottom .ha-advanced-tooltip-content{top:calc(101% + var(--ha-tooltip-arrow-distance));right:0;bottom:unset;left:0;margin:0 auto}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-bottom .ha-advanced-tooltip-content::after{top:unset;right:unset;bottom:100%;left:50%;border-color:transparent transparent var(--ha-tooltip-arrow-color) transparent;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%)}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-left .ha-advanced-tooltip-content{top:50%;right:calc(101% + var(--ha-tooltip-arrow-distance));bottom:unset;left:unset;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-left .ha-advanced-tooltip-content::after{top:50%;right:unset;bottom:unset;left:100%;border-color:transparent transparent transparent var(--ha-tooltip-arrow-color);-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-right .ha-advanced-tooltip-content{top:50%;right:unset;bottom:unset;left:calc(101% + var(--ha-tooltip-arrow-distance));-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}body[data-elementor-device-mode=mobile] .ha-advanced-tooltip-enable.ha-advanced-tooltip-mobile-right .ha-advanced-tooltip-content::after{top:50%;right:100%;bottom:unset;left:unset;border-color:transparent var(--ha-tooltip-arrow-color) transparent transparent;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}body.elementor-editor-active .happy-addon.ha-gravityforms .gform_wrapper{display:block!important}.ha-scroll-to-top-wrap.ha-scroll-to-top-hide{display:none}.ha-scroll-to-top-wrap.edit-mode,.ha-scroll-to-top-wrap.single-page-off{display:none!important}.ha-scroll-to-top-button{position:fixed;right:15px;bottom:15px;z-index:9999;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;-ms-flex-align:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;width:50px;height:50px;border-radius:50px;background-color:#5636d1;color:#fff;text-align:center;opacity:1;cursor:pointer;-webkit-transition:all .3s;transition:all .3s}.ha-scroll-to-top-button i{color:#fff;font-size:16px}.ha-scroll-to-top-button:hover{background-color:#e2498a}
+</style>
+<link rel='stylesheet' id='elementor-post-9-css' href='https://missiasempreiteiro.com.br/wp-content/uploads/elementor/css/post-9.css?ver=1695009985' media='all' />
+<link rel='stylesheet' id='elementor-icons-css' href='https://missiasempreiteiro.com.br/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.23.0' media='all' />
+<link rel='stylesheet' id='swiper-css' href='https://missiasempreiteiro.com.br/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' media='all' />
+<link rel='stylesheet' id='elementor-pro-css' href='https://missiasempreiteiro.com.br/wp-content/plugins/pro-elements/assets/css/frontend-lite.min.css?ver=3.13.2' media='all' />
+<link rel='stylesheet' id='font-awesome-5-all-css' href='https://missiasempreiteiro.com.br/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.16.3' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css' href='https://missiasempreiteiro.com.br/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.16.3' media='all' />
+<link rel='stylesheet' id='elementor-global-css' href='https://missiasempreiteiro.com.br/wp-content/uploads/elementor/css/global.css?ver=1695012063' media='all' />
+<link rel='stylesheet' id='elementor-post-37-css' href='https://missiasempreiteiro.com.br/wp-content/uploads/elementor/css/post-37.css?ver=1696862408' media='all' />
+<link rel='stylesheet' id='happy-icons-css' href='https://missiasempreiteiro.com.br/wp-content/plugins/happy-elementor-addons/assets/fonts/style.min.css?ver=3.8.9' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='https://missiasempreiteiro.com.br/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CExo%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.3.2' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://missiasempreiteiro.com.br/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://missiasempreiteiro.com.br/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-brands-css' href='https://missiasempreiteiro.com.br/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3' media='all' />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><script src='https://missiasempreiteiro.com.br/wp-includes/js/jquery/jquery.min.js?ver=3.7.0' id='jquery-core-js'></script>
+<script src='https://missiasempreiteiro.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1' id='jquery-migrate-js'></script>
+<script src='https://missiasempreiteiro.com.br/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.16.3' id='font-awesome-4-shim-js'></script>
+<link rel="https://api.w.org/" href="https://missiasempreiteiro.com.br/wp-json/" /><link rel="alternate" type="application/json" href="https://missiasempreiteiro.com.br/wp-json/wp/v2/pages/37" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://missiasempreiteiro.com.br/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.3.2" />
+<link rel="canonical" href="https://missiasempreiteiro.com.br/" />
+<link rel='shortlink' href='https://missiasempreiteiro.com.br/' />
+<link rel="alternate" type="application/json+oembed" href="https://missiasempreiteiro.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmissiasempreiteiro.com.br%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://missiasempreiteiro.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmissiasempreiteiro.com.br%2F&#038;format=xml" />
+<meta name="generator" content="Elementor 3.16.3; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KXZL48HD');</script>
+<!-- End Google Tag Manager -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /></head>
+<body class="home page-template page-template-elementor_canvas page page-id-37 elementor-default elementor-template-canvas elementor-kit-9 elementor-page elementor-page-37">
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXZL48HD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+		<div data-elementor-type="wp-page" data-elementor-id="37" class="elementor elementor-37">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-26044179 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="26044179" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-44444cf3" data-id="44444cf3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-5aafe37 elementor-widget__width-initial elementor-view-default elementor-widget elementor-widget-icon" data-id="5aafe37" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="fas fa-hammer"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-2d58020 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="2d58020" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.16.0 - 14-09-2023 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2 class="elementor-heading-title elementor-size-default"><b>Missias Empreiteiro</b></h2>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3e91fc2b elementor-hidden-mobile" data-id="3e91fc2b" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-28cb3d04 elementor-align-right elementor-widget elementor-widget-button" data-id="28cb3d04" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-md" href="https://api.whatsapp.com/send?phone=5511947560100&#038;text=Ol%C3%A1%20Missias!%20Vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento.">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-left">
+				<i aria-hidden="true" class="fab fa-whatsapp"></i>			</span>
+						<span class="elementor-button-text">Solicite um orçamento</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-782666a7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="782666a7" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1e6de3f1" data-id="1e6de3f1" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-7af82599 elementor-widget elementor-widget-heading" data-id="7af82599" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Realizamos a sua <b>reforma ou construção</b> do jeito que você sempre sonhou com uma equipe altamente qualificada!</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1471a3ab elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="1471a3ab" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Somos especializados em reformas residenciais, comerciais e construção de casas da fundação ao acabamento e garantimos a segurança da sua obra com seguro de obra, clique no botão abaixo para solicitar seu orçamento.</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5f626beb elementor-align-left elementor-mobile-align-justify elementor-widget elementor-widget-button" data-id="5f626beb" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-lg elementor-animation-grow" href="https://api.whatsapp.com/send?phone=5511947560100&#038;text=Ol%C3%A1%20Missias!%20Vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento.">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-left">
+				<i aria-hidden="true" class="fab fa-whatsapp"></i>			</span>
+						<span class="elementor-button-text">Solicite um orçamento pelo Whatsapp</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-71dee9e7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="71dee9e7" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2683bfb8" data-id="2683bfb8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1eabfd47 elementor-widget-tablet__width-initial elementor-widget elementor-widget-heading" data-id="1eabfd47" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">+12</h2>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-117c4888" data-id="117c4888" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-14cae0ba elementor-widget-tablet__width-initial elementor-widget elementor-widget-heading" data-id="14cae0ba" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Anos de experiência oferecendo<br>a solução completa para quem<br>vai construir ou reformar.</h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-50debcb4" data-id="50debcb4" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-cbf2b5d elementor-widget elementor-widget-heading" data-id="cbf2b5d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">*Caso esteja procurando emprego, NÃO estamos contratando no momento.</h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-7abedd33 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7abedd33" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-62412c7" data-id="62412c7" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-6539fd1d elementor-widget elementor-widget-image" data-id="6539fd1d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.16.0 - 14-09-2023 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>												<img decoding="async" fetchpriority="high" width="500" height="750" src="https://missiasempreiteiro.com.br/wp-content/uploads/2023/09/pexels-photo-8961526.jpeg" class="attachment-large size-large wp-image-53" alt="" srcset="https://missiasempreiteiro.com.br/wp-content/uploads/2023/09/pexels-photo-8961526.jpeg 500w, https://missiasempreiteiro.com.br/wp-content/uploads/2023/09/pexels-photo-8961526-200x300.jpeg 200w" sizes="(max-width: 500px) 100vw, 500px" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7ec809b9" data-id="7ec809b9" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-4e5e790d elementor-widget elementor-widget-heading" data-id="4e5e790d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">SOLUÇÕES</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6e6fee9 elementor-widget elementor-widget-heading" data-id="6e6fee9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">O QUE FAZEMOS?</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-497fd072 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="497fd072" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Reformas e construções: oferecemos a solução completa para quem vai construir ou reformar, com mão de obra especializada e materiais de primeira linha. Com centenas de clientes atendidos e satisfeitos, executamos a construção desde a fundação até a entrega de chaves, garantindo uma obra 100% finalizada.</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f7efbc8 elementor-widget elementor-widget-heading" data-id="f7efbc8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Serviços oferecidos:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-25a6b87e servicos elementor-widget elementor-widget-accordion" data-id="25a6b87e" data-element_type="widget" data-widget_type="accordion.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.16.0 - 14-09-2023 */
+.elementor-accordion{text-align:left}.elementor-accordion .elementor-accordion-item{border:1px solid #d5d8dc}.elementor-accordion .elementor-accordion-item+.elementor-accordion-item{border-top:none}.elementor-accordion .elementor-tab-title{margin:0;padding:15px 20px;font-weight:700;line-height:1;cursor:pointer;outline:none}.elementor-accordion .elementor-tab-title .elementor-accordion-icon{display:inline-block;width:1.5em}.elementor-accordion .elementor-tab-title .elementor-accordion-icon svg{width:1em;height:1em}.elementor-accordion .elementor-tab-title .elementor-accordion-icon.elementor-accordion-icon-right{float:right;text-align:right}.elementor-accordion .elementor-tab-title .elementor-accordion-icon.elementor-accordion-icon-left{float:left;text-align:left}.elementor-accordion .elementor-tab-title .elementor-accordion-icon .elementor-accordion-icon-closed{display:block}.elementor-accordion .elementor-tab-title .elementor-accordion-icon .elementor-accordion-icon-opened,.elementor-accordion .elementor-tab-title.elementor-active .elementor-accordion-icon-closed{display:none}.elementor-accordion .elementor-tab-title.elementor-active .elementor-accordion-icon-opened{display:block}.elementor-accordion .elementor-tab-content{display:none;padding:15px 20px;border-top:1px solid #d5d8dc}@media (max-width:767px){.elementor-accordion .elementor-tab-title{padding:12px 15px}.elementor-accordion .elementor-tab-title .elementor-accordion-icon{width:1.2em}.elementor-accordion .elementor-tab-content{padding:7px 15px}}.e-con-inner>.elementor-widget-accordion,.e-con>.elementor-widget-accordion{width:var(--container-widget-width);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-accordion">
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-6311" class="elementor-tab-title" data-tab="1" role="button" aria-controls="elementor-tab-content-6311" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">PROJETOS E APROVAÇÕES</a>
+					</div>
+					<div id="elementor-tab-content-6311" class="elementor-tab-content elementor-clearfix" data-tab="1" role="region" aria-labelledby="elementor-tab-title-6311"><p>Atuamos no mercado prestando serviços com arquitetos e engenheiros desde a concepção do projeto, aprovação e execução, até o acabamento final da sua obra.</p></div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-6312" class="elementor-tab-title" data-tab="2" role="button" aria-controls="elementor-tab-content-6312" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">EMPREITEIRO, HIDRÁULICA E ELÉTRICA</a>
+					</div>
+					<div id="elementor-tab-content-6312" class="elementor-tab-content elementor-clearfix" data-tab="2" role="region" aria-labelledby="elementor-tab-title-6312"><p>Quer fazer uma construção ou reforma completa? Ou apenas alguns reparos? Disponibilizamos serviços de empreiteiro (alvenaria, pisos e azulejos), instalação de elementos hidráulicos (tubulações, louças sanitárias), instalações elétricas (fiação, disjuntores, chuveiros) e etc.</p></div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-6313" class="elementor-tab-title" data-tab="3" role="button" aria-controls="elementor-tab-content-6313" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">PINTURAS E TEXTURAS</a>
+					</div>
+					<div id="elementor-tab-content-6313" class="elementor-tab-content elementor-clearfix" data-tab="3" role="region" aria-labelledby="elementor-tab-title-6313"><p>Quer renovar o acabamento? Ou uma nova pintura? Contamos com profissionais especializados para pinturas externas e internas em condomínios, residências e imóveis comerciais.</p></div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-6314" class="elementor-tab-title" data-tab="4" role="button" aria-controls="elementor-tab-content-6314" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">FORRO E GESSO</a>
+					</div>
+					<div id="elementor-tab-content-6314" class="elementor-tab-content elementor-clearfix" data-tab="4" role="region" aria-labelledby="elementor-tab-title-6314"><p>Oferecemos serviços de forro e paredes em drywall, gesso liso e molduras, proporcionando acabamento moderno, além de possibilitar a instalação de iluminação embutida e criar ambientes sofisticados e aconchegantes</p></div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-6315" class="elementor-tab-title" data-tab="5" role="button" aria-controls="elementor-tab-content-6315" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">GERENCIAMENTO DE OBRAS</a>
+					</div>
+					<div id="elementor-tab-content-6315" class="elementor-tab-content elementor-clearfix" data-tab="5" role="region" aria-labelledby="elementor-tab-title-6315"><p>Gerenciamos a sua obra fazendo todas as contratações dos diversos prestadores de serviços. Elaboramos cronogramas de obra para compra de material, relatório da obra com fotos. Fazemos uma rigorosa gestão dos contratos com os fornecedores, controle de qualidade dos materiais e mão de obra.</p></div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-6316" class="elementor-tab-title" data-tab="6" role="button" aria-controls="elementor-tab-content-6316" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">SEGURO DE OBRA PORTO SEGURO</a>
+					</div>
+					<div id="elementor-tab-content-6316" class="elementor-tab-content elementor-clearfix" data-tab="6" role="region" aria-labelledby="elementor-tab-title-6316"><p>Para sua total tranquilidade, oferecemos o serviço de seguro de obra em parceria com a renomada seguradora Porto Seguro. Este serviço garante que sua construção ou reforma esteja protegida de eventuais imprevistos, assegurando que qualquer problema que surja durante o projeto seja prontamente resolvido. Com o Seguro de Obra Porto Seguro, você pode ter a certeza de que sua jornada de construção ou reforma será suave e segura, desde o início até a entrega final.</p></div>
+				</div>
+								</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-26de596a elementor-align-left elementor-mobile-align-justify elementor-widget elementor-widget-button" data-id="26de596a" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-lg elementor-animation-grow" href="https://api.whatsapp.com/send?phone=5511947560100&#038;text=Ol%C3%A1%20Missias!%20Vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento.">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-left">
+				<i aria-hidden="true" class="fab fa-whatsapp"></i>			</span>
+						<span class="elementor-button-text">Solicite um orçamento personalizado</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-287dc1c0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="287dc1c0" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-67c638b3" data-id="67c638b3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-cd21fdf elementor-widget elementor-widget-heading" data-id="cd21fdf" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">RESULTADOS</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4c7b7443 elementor-widget elementor-widget-heading" data-id="4c7b7443" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Confira abaixo alguns dos projetos<br>já <b>executados</b> pela nossa equipe</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-23d36d8 elementor-widget elementor-widget-heading" data-id="23d36d8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><b>Antes</b></h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-9d66773 elementor-skin-carousel elementor-arrows-yes elementor-pagination-type-bullets elementor-pagination-position-outside elementor-widget elementor-widget-media-carousel" data-id="9d66773" data-element_type="widget" data-settings="{&quot;skin&quot;:&quot;carousel&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;show_arrows&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;speed&quot;:500,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;loop&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]}}" data-widget_type="media-carousel.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="https://missiasempreiteiro.com.br/wp-content/plugins/pro-elements/assets/css/widget-carousel.min.css">		<div class="elementor-swiper">
+			<div class="elementor-main-swiper swiper">
+				<div class="swiper-wrapper">
+											<div class="swiper-slide">
+									<div class="elementor-carousel-image" role="img" aria-label="Igreja antes 3" style="background-image: url(&#039;https://missiasempreiteiro.com.br/wp-content/uploads/2023/09/Igreja-antes-3.jpeg&#039;)">
 
-        <div class="container-text ">
-            <img src="acets/saymon.jpeg" alt="">
-            <div class="text">
-            <h2>PERFIL DA EMPRESA</h2>
-            <p style="font-size: 16px;">A empresa foi fundada em 2014 e teve como sua primeira Razão Social o
-                nome BRUMON SERVIÇOS DE ENGENHARIA LTDA., com o foco em
-                construções de termoelétrica e Construção de redes de distribuição de derivados
-                de petróleo. Com a pandemia em 2020 a empresa migrou para área de
-                construção civil, realizando grandes obras e a satisfação dos clientes, ganhando
-                mercado a cada obra realizada, com isso foi realizado um desmembramento com
-                o foco na área de engenharia civil dando início a MBrito Engenharia.
-                <br><br>Em 3 de agosto de 2022 foi instituída a MUNIZ BRITO ENGENHARIA LTDA
-                de CNPJ 47.411.967/0001-20 mantendo os serviços em construção civil e
-                interligação de tubulação de gás e acrescentando o ramo de 
-                inpeção de equipamentos devido a vasta experiência dos seus
-                responsáveis técnicos.
-                </p>
-            </div>
-            
-        </div>
+			
+					</div>
+								</div>
+											<div class="swiper-slide">
+									<div class="elementor-carousel-image" role="img" aria-label="Igreja antes 2" style="background-image: url(&#039;https://missiasempreiteiro.com.br/wp-content/uploads/2023/09/Igreja-antes-2.jpeg&#039;)">
 
-        <div class="container-text">
-            
-            <img src="acets/sobreimg.jpg" alt="">
-            <div class="text" style="padding-top:30px ;">
-                <h2>MISSÃO</h2>
-                <p style="font-size: 22px;">
-                    •Fornecer serviços de engenharia com um nível de qualidade
-                     que respeite às normas e a legislação vigentes, assim como,
-                      a integridade das relações com nossos clientes e parceiros comerciais.
-                    </p>
-            </div>
-       </div>
+			
+					</div>
+								</div>
+											<div class="swiper-slide">
+									<div class="elementor-carousel-image" role="img" aria-label="Igreja antes 1" style="background-image: url(&#039;https://missiasempreiteiro.com.br/wp-content/uploads/2023/09/Igreja-antes-1.jpeg&#039;)">
 
-        <div class="container-text">
-            <img src="acets/visao.jpg" alt="">
-            <div class="text" style="padding-top:30px ;">
-                <h2>VISÃO</h2>
-                <p style="font-size: 22px;">• Ser uma das maiores construtoras de Pernambuco
-                     até 2028 mantendo um crescimento sustentável juntamente 
-                     com clientes e parceiros comerciais.
-                </p>
-            </div>
-        </div>
+			
+					</div>
+								</div>
+									</div>
+															<div class="swiper-pagination"></div>
+																<div class="elementor-swiper-button elementor-swiper-button-prev" role="button" tabindex="0">
+							<i aria-hidden="true" class="eicon-chevron-left"></i>							<span class="elementor-screen-only">Previous</span>
+						</div>
+						<div class="elementor-swiper-button elementor-swiper-button-next" role="button" tabindex="0">
+							<i aria-hidden="true" class="eicon-chevron-right"></i>							<span class="elementor-screen-only">Next</span>
+						</div>
+												</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-bb3b942 elementor-widget elementor-widget-heading" data-id="bb3b942" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><b>Depois</b></h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1a8925e elementor-skin-carousel elementor-arrows-yes elementor-pagination-type-bullets elementor-pagination-position-outside elementor-widget elementor-widget-media-carousel" data-id="1a8925e" data-element_type="widget" data-settings="{&quot;skin&quot;:&quot;carousel&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;show_arrows&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;speed&quot;:500,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;loop&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]}}" data-widget_type="media-carousel.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-swiper">
+			<div class="elementor-main-swiper swiper">
+				<div class="swiper-wrapper">
+											<div class="swiper-slide">
+									<div class="elementor-carousel-image" role="img" aria-label="Igreja depois 3" style="background-image: url(&#039;https://missiasempreiteiro.com.br/wp-content/uploads/2023/09/Igreja-depois-3.jpeg&#039;)">
 
-        
-        
+			
+					</div>
+								</div>
+											<div class="swiper-slide">
+									<div class="elementor-carousel-image" role="img" aria-label="Igreja depois 2" style="background-image: url(&#039;https://missiasempreiteiro.com.br/wp-content/uploads/2023/09/Igreja-depois-2.jpeg&#039;)">
 
-        <div class="container-text">
-            <img src="acets/valores.jpg" alt="">
-            <div class="text">
-                <h2>VALORES</h2>
-                <p style="font-size: 20px;">
-                    • Transparência<br><br>
-                    • Honestidade<br><br>
-                    • Burocracia<br><br>
-                    • Integridade<br><br>
-                    • Inovação<br><br>
-                    </p></div>
-            </div>
+			
+					</div>
+								</div>
+											<div class="swiper-slide">
+									<div class="elementor-carousel-image" role="img" aria-label="Igreja depois 1" style="background-image: url(&#039;https://missiasempreiteiro.com.br/wp-content/uploads/2023/09/Igreja-depois-1.jpeg&#039;)">
 
-            
-
-        <div class="container-text-full" >
-            <div class="text-full">
-            <h2  style="padding-top: 30px;">CÓDIGO DE ÉTICA</h2>
-            <p style="padding-top: 30px;">É constituída sobre valores de honestidade, integridade e respeito pelas
-                pessoas.
-                Essas práticas de negócio em geral, nos distinguem e guiam nossas ações.
-                Conduzimos nossos objetivos de forma socialmente responsável e ética.
-                </p>
-            </div>
-        </div>    
-    </section>
-
-    <section class="services" id="servicos">
-        <h2 style="padding-top: 50px;padding-bottom: 50px;"> Nossos Serviços</h2>
-        <div class="mini-cards">
-            <li class="mini">
-                <svg xmlns="http://www.w3.org/2000/svg"  width="60" height="60" fill="currentColor" class="bi bi-rulers" viewBox="0 0 16 16">
-                    <path d="M1 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h5v-1H2v-1h4v-1H4v-1h2v-1H2v-1h4V9H4V8h2V7H2V6h4V2h1v4h1V4h1v2h1V2h1v4h1V4h1v2h1V2h1v4h1V1a1 1 0 0 0-1-1H1z"/>
-                  </svg>
-                <h5>CONSTRUÇÃO E MANUTENÇÃO CIVIL EM GERAL</h5>
-                <p>Se um projeto não for muito complexo, podemos contratar um empreiteiro do tipo projetista-construtor, para diminuir a longevidade da construção.
-                </p>
-            </li>
-
-            <li class="mini">
-                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-fire" viewBox="0 0 16 16">
-                    <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16Zm0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15Z"/>
-                  </svg>
-                <h5>PROJETO DE PROTEÇÃO CONTRA INCÊNDIOS</h5>
-                <p>Fazemos todo o projeto e todo o processo de adequação junto ao corpo de bombeiros</p>
-            </li>
-
-            <li class="mini">
-                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-card-checklist" viewBox="0 0 16 16">
-                    <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
-                    <path d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z"/>
-                  </svg>
-                <h5>INSPEÇÃO DE  MÁQUINAS E EQUIPAMENTOS</h5>
-                <p>Contamos com inspetores devidamente habilitados para a inspeção mecânica prevista pela NR12, NR13 e normas ABNT complementares</p>
-            </li>
-
-            <li class="mini">
-                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-tools" viewBox="0 0 16 16">
-                    <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0Zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708ZM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11Z"/>
-                  </svg>
-                <h5>INSPEÇÃO DE TUBULAÇÕES, CALDEIRAS, VASOS DE PRESSÃO E TANQUES METÁLICOS DE ARMAZENAMENTO</h5>
-                <p>Contamos com inspetores devidamente habilitados para a inspeção mecânica prevista pela NR12, NR13 e normas ABNT complementares</p>
-            </li>
-
-            <li class="mini">
-                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-droplet-half" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10c0 0 2.5 1.5 5 .5s5-.5 5-.5c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z"/>
-                    <path fill-rule="evenodd" d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z"/>
-                  </svg>
-                <h5>INSTALAÇÃO DE REDES INTERNAS DE GÁS</h5>
-                <p>Temos vasta experiência com instalações de gás, conforme a ABNT NBR 15526 - INSTALAÇÕES RESIDENCIAIS E COMERCIAIS DE GN e GLP</p></li>
-            <li class="mini">
-                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0Zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5Z"/>
-                  </svg>
-                <h5>MAPEAMENTO E OTIMIZAÇÃO DE PROCESSOS PRODUTIVOS</h5>
-                <p>Entendemos a dificuldade de pequenas e médias empresas em ajustar a logística da sua cadeia produtiva e no intuito de mapear e alinhar seus processos contamos com profissionais com mais de 20 anos de experiência em logística para nos ajudar na reengenharia de seus processo na busca pelo aumento de produtividade</p></li>
-        </div>
-
-        <div class="cards">
-            <h2 style="padding-bottom: 50px;padding-top: 50px;">Condomínio Praia de Tamandaré</h2>
-            <div class="containercards">
-                <div class="card">
-                    <img src="acets/imgtamandare1.jpg" class="card-img" alt="...">
-                </div>
-                <div class="card">
-                    <img src="acets/imgtamandare2.jpg" class="card-img" alt="...">
-                </div>
-                <div class="card">
-                    <img src="acets/imgtamandare6.jpg" class="card-img" alt="...">
-                </div>
-                <div class="card">
-                    <img src="acets/imgtamandare4.jpg" class="card-img" alt="...">
-                </div>
-                <div class="card">
-                    <img src="acets/imgtamandare5.jpg" class="card-img" alt="...">
-            </div>
-        </div>  
-        
-        <div class="cards">
-            <div class="titulo">
-                <img src="acets/lup.png" alt="">
-                <h2>Lup Beach Club - Guadalupe - PE</h2>
-                
-            </div>
-            
-            <div class="containercards">
-                    <div class="card">
-                        <img src="acets/lup1.jpg" class="card-img" alt="...">
-                    </div>
-                    <div class="card">
-                        <img src="acets/lup2.jpg" class="card-img" alt="...">
-                    </div>
-                    <div class="card">
-                        <img src="acets/lup3.jpg" class="card-img" alt="...">
-            </div>
-        </div>      
-        
-        
-    </section>
-    <section class="time" id="resp">
-        <h2>RESPONSÁVEIS TÉCNICOS</h2>
-        <div class="orgo">
-            <div class="timecard">
-                <div class="card-group">
-                <div class="card">
-                    <img src="acets/say.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h4 class="card-title">Saymon Muniz <br>Sócio Administrador </h4>
-                        <h5>Gerente de Projetos</h5>
-                    </div>
-                </div>
-            </div>
-
-                <div class="card-group">
-
-                    
-
-                    <div class="card">
-                        <img src="acets/carlos.jpeg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                               <h4 class="card-title">Carlos Guimarães</h4>
-                               <h5>Responsável Técnico</h5>
-                              <p>Mais de 45 anos de experiência com gerenciamento e supervisão de obras
-                                    Engenheiro Civil - Universidade de Pernambuco (UPE)
-                                    Vivência em mais de 10 empresas e diversos cursos de extensão
-                                </p>
-                             </div>
-                    </div>
-                    
-
-
-                    <div class="card">
-                        <img src="acets/tiago.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h4>Tiago Alves </h4>
-                            <h5>Responsável Técnico</h5>
-                            <p>Mais de 10 anos de experiência com obras
-                                Engenheiro Mecânico - Universidade Federal da Bahia (UFBA)
-                                Especialista em Engenharia de Soldagem - Universidade de Pernambuco (UPE)
-                                MBA em Gerenciamento de Projetos - Fundação Getúlio Vargas (FGV)
-                                Mestrando em Engenharia Mecânica - Universidade de Taubaté (UNITAU)</p>
-                        </div>
-                    </div>
-
-                </div>  
-
-                <div class="card-group">       
-                    <div class="card">
-                        <img src="acets/lucas.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h4>Lucas Muniz </h4>
-                        <h5>Consultor Técnico</h5>
-                        <p>Doutorando em Engenharia Civil - Universidade Federal de Alagoas (UFAL)
-                            Vivência em Pesquisas e Projetos de estruturas de construção civil</p>
-                    </div>
-                </div>
-
-                    <div class="card">
-                        <img src="acets/aline.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h4>Aline Muniz </h4>
-                            <h5>Consultora Técnica</h5>
-                            <p>Mais de 15 anos de experiência com obras
-                                Arquiteta e Urbanista - Universidade Federal da Bahia (UFBA)
-                                Especialista em Engenheira de Segurança do Trabalho - Universidade Federal da Bahia (UFBA)</p>
-                            
-                        </div>
-                    </div>
-
-                </div>
-
-            </div> 
-        </div> 
-    </section>
-    </main>
-
-    <footer class="text-center text-lg-start bg-light text-muted">
-        <div class="contato" >
-            <form name="meu_form" action="./email.php">
-
-                <h2>Entre em contato</h2>
-              
-                <input type="text" id="nomeid" placeholder="Nome" required="required" name="nome" />
-                
-                <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
-                
-                <input type="email" id="emailid" placeholder="seuemail@email.com" name="email" />
-               
-                <select name="select">
-                    <option value="valor1">Qual é o serviço desejado?</option>
-                    <option value="valor2">CONSTRUÇÃO E MANUTENÇÃO CIVIL EM GERAL </option>
-                    <option value="valor3">PROJETO DE PROTEÇÃO CONTRA INCÊNDIOS </option>
-                    <option value="valor4">INSPEÇÃO DE  MÁQUINAS E EQUIPAMENTOS</option>
-                    <option value="valor5">INSPEÇÃO DE TUBULAÇÕES, CALDEIRAS, VASOS DE PRESSÃO E TANQUES METÁLICOS DE ARMAZENAMENTO</option>
-                    <option value="valor6">INSTALAÇÃO DE REDES INTERNAS DE GÁS </option>
-                    <option value="valor7"> MAPEAMENTO E OTIMIZAÇÃO DE PROCESSOS PRODUTIVOS </option>
-                  </select>
-              
-                <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
-              </form>
-            <div class="textcontato">
-                <h3>Sócio Administrador</h3>
-                <h5>Saymon Dantas Muniz</h5>
-                    <p>E-mail: saymon.muniz@mbritoengenharia.com.br<br>
-                    Telefone: (81) 9 8950-0786<br>
-                    </p>
-                <h3>Responsáveis Técnicos</h3>
-                <h5>Carlos Henrique</h5>
-                <p> Engenheiro Civil CREA - PE036883<br>
-                    E-mail: engenharia.civil@mbritoengenharia.com.br</p>
-                <h5>Tiago Alves</h5>
-                    <p>Engenheiro Mecânico, CREA - PE09317669<br>
-                    E-mail: engenharia@mbritoengenharia.com.br</p>
-                    <p>CNPJ: 47.411.967/0001-20</p>
-                    <a href="https://wa.me/5581989500786/" 
-                    target="_blank" ><img src="acets/zap.png" alt="">
-                </a>
-            </div>
-            
-        </div>
-
-        
-        <div class="dev">
-            <h4><i class="bi bi-c-circle"></i> by Roberto Souza</h4>
-            <li><a href="https://github.com/RobertoDSouza"  target="_blank"><i class="bi bi-github"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/roberto-francisco-santana-de-souza-01ba10205/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
-            <li><a href="https://wa.me/5581987190342/" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
-        </div>
-        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-            &copy; <script>document.write(new Date().getFullYear())</script> Muniz Brito Engenharia, All rights reserved.
-        </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
-</body>
+			
+					</div>
+								</div>
+									</div>
+															<div class="swiper-pagination"></div>
+																<div class="elementor-swiper-button elementor-swiper-button-prev" role="button" tabindex="0">
+							<i aria-hidden="true" class="eicon-chevron-left"></i>							<span class="elementor-screen-only">Previous</span>
+						</div>
+						<div class="elementor-swiper-button elementor-swiper-button-next" role="button" tabindex="0">
+							<i aria-hidden="true" class="eicon-chevron-right"></i>							<span class="elementor-screen-only">Next</span>
+						</div>
+												</div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-4343a1e7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4343a1e7" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-156b3040" data-id="156b3040" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-77881fbf elementor-widget elementor-widget-heading" data-id="77881fbf" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">COMO ATUAMOS</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1f90f864 elementor-widget elementor-widget-heading" data-id="1f90f864" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Nosso processo<br><b> em 6 passos</b></h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4447f2fc elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="4447f2fc" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Confira como funciona o nosso processo de elaboração e execução de projetos de reforma e construção.</h2>		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-458225b6 elementor-hidden-tablet elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="458225b6" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-51a91491" data-id="51a91491" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-73486392 elementor-view-default elementor-widget elementor-widget-icon" data-id="73486392" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="fab fa-whatsapp"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-6d068368 elementor-widget elementor-widget-heading" data-id="6d068368" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Tenha seu orçamento <b>ainda hoje</b></h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-11c5135d elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="11c5135d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Clique no botão abaixo e solicite um orçamento sem compromisso via WhatsApp:</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-167be36f elementor-align-center elementor-mobile-align-justify elementor-widget elementor-widget-button" data-id="167be36f" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-lg elementor-animation-grow" href="https://api.whatsapp.com/send?phone=5511947560100&#038;text=Ol%C3%A1%20Missias!%20Vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento.">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-left">
+				<i aria-hidden="true" class="fab fa-whatsapp"></i>			</span>
+						<span class="elementor-button-text">Solicite um orçamento</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-561d5e55" data-id="561d5e55" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-5e17b060 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5e17b060" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-63c3a40a" data-id="63c3a40a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-44038d26 elementor-widget elementor-widget-heading" data-id="44038d26" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">01</h2>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7d2d50d" data-id="7d2d50d" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-68a229e0 elementor-widget elementor-widget-heading" data-id="68a229e0" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">01. CONTATO INICIAL</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7ce6c429 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="7ce6c429" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Mande uma mensagem no WhatsApp para nossa equipe clicando nos botões deste site.</h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-2daa050 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2daa050" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4afe09d3" data-id="4afe09d3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-6090204c elementor-widget elementor-widget-heading" data-id="6090204c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">02</h2>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2abce77d" data-id="2abce77d" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-f562c32 elementor-widget elementor-widget-heading" data-id="f562c32" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">02. ESTUDO DE CASO</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1c3bb401 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="1c3bb401" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Vamos entender sua necessidade e apresentar a melhor solução para o seu caso, seja ele de reforma ou construção.</h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-27b1b777 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="27b1b777" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-325a38c3" data-id="325a38c3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-5916df40 elementor-widget elementor-widget-heading" data-id="5916df40" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">03</h2>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1fc00c57" data-id="1fc00c57" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-62644112 elementor-widget elementor-widget-heading" data-id="62644112" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">03. ORÇAMENTO</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6c2e098b elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="6c2e098b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Vamos criar um orçamento personalizado para o seu caso.</h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-3d5f83ca elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3d5f83ca" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-526c233d" data-id="526c233d" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-4702e4f1 elementor-widget elementor-widget-heading" data-id="4702e4f1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">04</h2>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5d5a62c8" data-id="5d5a62c8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2593b4f4 elementor-widget elementor-widget-heading" data-id="2593b4f4" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">04. CONTRATO</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1c47a91a elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="1c47a91a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Assinatura do contrato e definição do cronograma de execução e acompanhamento de sua obra.</h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-2080589b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2080589b" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-29af9c04" data-id="29af9c04" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-77ee0e91 elementor-widget elementor-widget-heading" data-id="77ee0e91" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">05</h2>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-66d9790d" data-id="66d9790d" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-7eb47cc2 elementor-widget elementor-widget-heading" data-id="7eb47cc2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">05. EXECUÇÃO DA OBRA</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7020e6d4 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="7020e6d4" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Gerenciamento e Execução dos Serviços.</h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-6879b16 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6879b16" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5fe352d" data-id="5fe352d" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-9e06d75 elementor-widget elementor-widget-heading" data-id="9e06d75" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">06</h2>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-8595c88" data-id="8595c88" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-9b67650 elementor-widget elementor-widget-heading" data-id="9b67650" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">06. ENTREGA FINAL</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-8581613 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="8581613" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Revisão Técnica e Limpeza Pós-Obra.</h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-6feca6d3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6feca6d3" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7ba6b5de" data-id="7ba6b5de" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-4f6622ca elementor-widget elementor-widget-heading" data-id="4f6622ca" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Quem <b>somos</b></h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7d43be7e elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="7d43be7e" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.16.0 - 14-09-2023 */
+.elementor-widget-divider{--divider-border-style:none;--divider-border-width:1px;--divider-color:#0c0d0e;--divider-icon-size:20px;--divider-element-spacing:10px;--divider-pattern-height:24px;--divider-pattern-size:20px;--divider-pattern-url:none;--divider-pattern-repeat:repeat-x}.elementor-widget-divider .elementor-divider{display:flex}.elementor-widget-divider .elementor-divider__text{font-size:15px;line-height:1;max-width:95%}.elementor-widget-divider .elementor-divider__element{margin:0 var(--divider-element-spacing);flex-shrink:0}.elementor-widget-divider .elementor-icon{font-size:var(--divider-icon-size)}.elementor-widget-divider .elementor-divider-separator{display:flex;margin:0;direction:ltr}.elementor-widget-divider--view-line_icon .elementor-divider-separator,.elementor-widget-divider--view-line_text .elementor-divider-separator{align-items:center}.elementor-widget-divider--view-line_icon .elementor-divider-separator:after,.elementor-widget-divider--view-line_icon .elementor-divider-separator:before,.elementor-widget-divider--view-line_text .elementor-divider-separator:after,.elementor-widget-divider--view-line_text .elementor-divider-separator:before{display:block;content:"";border-bottom:0;flex-grow:1;border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-left .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-left .elementor-divider__element{margin-left:0}.elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-right .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-right .elementor-divider__element{margin-right:0}.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator{border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--separator-type-pattern{--divider-border-style:none}.elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,.elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator{width:100%;min-height:var(--divider-pattern-height);-webkit-mask-size:var(--divider-pattern-size) 100%;mask-size:var(--divider-pattern-size) 100%;-webkit-mask-repeat:var(--divider-pattern-repeat);mask-repeat:var(--divider-pattern-repeat);background-color:var(--divider-color);-webkit-mask-image:var(--divider-pattern-url);mask-image:var(--divider-pattern-url)}.elementor-widget-divider--no-spacing{--divider-pattern-size:auto}.elementor-widget-divider--bg-round{--divider-pattern-repeat:round}.rtl .elementor-widget-divider .elementor-divider__text{direction:rtl}.e-con-inner>.elementor-widget-divider,.e-con>.elementor-widget-divider{width:var(--container-widget-width,100%);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-7f463c83 elementor-widget elementor-widget-text-editor" data-id="7f463c83" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.16.0 - 14-09-2023 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>Com nossos serviços de reformas e construções, garantimos projetos e obras de excelência. Com dezenas de clientes satisfeitos e obras entregues dentro do prazo e do orçamento, estamos preparados para ser a solução que você precisa na sua próxima reforma ou construção.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-6144901 elementor-position-left iconee elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="6144901" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="https://missiasempreiteiro.com.br/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">		<div class="elementor-icon-box-wrapper">
+						<div class="elementor-icon-box-icon">
+				<a href="https://api.whatsapp.com/send?phone=5511947560100&#038;text=Ol%C3%A1%20Missias!%20Vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento." class="elementor-icon elementor-animation-" tabindex="-1">
+				<i aria-hidden="true" class="fab fa-whatsapp"></i>				</a>
+			</div>
+						<div class="elementor-icon-box-content">
+				<h3 class="elementor-icon-box-title">
+					<a href="https://api.whatsapp.com/send?phone=5511947560100&#038;text=Ol%C3%A1%20Missias!%20Vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento." >
+						Telefone/WhatsApp					</a>
+				</h3>
+									<p class="elementor-icon-box-description">
+						(11) 94756-0100					</p>
+							</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-44f56e90 elementor-position-left iconee elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="44f56e90" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-box-wrapper">
+						<div class="elementor-icon-box-icon">
+				<span  class="elementor-icon elementor-animation-">
+				<i aria-hidden="true" class="fas fa-map-marker-alt"></i>				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<h3 class="elementor-icon-box-title">
+					<span  >
+						Onde estamos localizados:					</span>
+				</h3>
+									<p class="elementor-icon-box-description">
+						Parque Santa Rita, São Paulo - SP					</p>
+							</div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4d96341e" data-id="4d96341e" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2f46806 elementor-widget elementor-widget-image" data-id="2f46806" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="640" height="640" src="https://missiasempreiteiro.com.br/wp-content/uploads/2023/09/343349275_3247615975529600_1705301508380510409_n.jpg" class="attachment-full size-full wp-image-54" alt="" srcset="https://missiasempreiteiro.com.br/wp-content/uploads/2023/09/343349275_3247615975529600_1705301508380510409_n.jpg 640w, https://missiasempreiteiro.com.br/wp-content/uploads/2023/09/343349275_3247615975529600_1705301508380510409_n-300x300.jpg 300w, https://missiasempreiteiro.com.br/wp-content/uploads/2023/09/343349275_3247615975529600_1705301508380510409_n-150x150.jpg 150w" sizes="(max-width: 640px) 100vw, 640px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-33fd9b34 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="33fd9b34" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-4de8877f" data-id="4de8877f" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-185c8726 elementor-widget elementor-widget-heading" data-id="185c8726" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">12 anos</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5bbf4553 elementor-widget elementor-widget-text-editor" data-id="5bbf4553" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>de experiência no mercado de reformas e construção civil.</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-68e21f40" data-id="68e21f40" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-38cc449c elementor-widget elementor-widget-heading" data-id="38cc449c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">+ de 150</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-420de7e0 elementor-widget elementor-widget-text-editor" data-id="420de7e0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>obras e serviços concluídos com sucesso.</p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-7b5072a6" data-id="7b5072a6" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-650de914 elementor-widget elementor-widget-heading" data-id="650de914" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">+ de 300</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-3cf6192e elementor-widget elementor-widget-text-editor" data-id="3cf6192e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>clientes satisfeitos com nossas entregas.</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-23b13027 elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="23b13027" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-66fc85b8" data-id="66fc85b8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-7f56412b elementor-widget elementor-widget-heading" data-id="7f56412b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">DEPOIMENTOS</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-485eb3e3 elementor-widget elementor-widget-heading" data-id="485eb3e3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><b>Veja quem já confiou </b><br>no nosso trabalho</h2>		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-12ee57d6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="12ee57d6" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-dae90d8" data-id="dae90d8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-71ba9789 depoimento elementor-widget elementor-widget-testimonial" data-id="71ba9789" data-element_type="widget" data-widget_type="testimonial.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.16.0 - 14-09-2023 */
+.elementor-testimonial-wrapper{overflow:hidden;text-align:center}.elementor-testimonial-wrapper .elementor-testimonial-content{font-size:1.3em;margin-bottom:20px}.elementor-testimonial-wrapper .elementor-testimonial-name{line-height:1.5;display:block}.elementor-testimonial-wrapper .elementor-testimonial-job{font-size:.85em;display:block}.elementor-testimonial-wrapper .elementor-testimonial-meta{width:100%;line-height:1}.elementor-testimonial-wrapper .elementor-testimonial-meta-inner{display:inline-block}.elementor-testimonial-wrapper .elementor-testimonial-meta .elementor-testimonial-details,.elementor-testimonial-wrapper .elementor-testimonial-meta .elementor-testimonial-image{display:table-cell;vertical-align:middle}.elementor-testimonial-wrapper .elementor-testimonial-meta .elementor-testimonial-image img{width:60px;height:60px;border-radius:50%;-o-object-fit:cover;object-fit:cover;max-width:none}.elementor-testimonial-wrapper .elementor-testimonial-meta.elementor-testimonial-image-position-aside .elementor-testimonial-image{padding-right:15px}.elementor-testimonial-wrapper .elementor-testimonial-meta.elementor-testimonial-image-position-aside .elementor-testimonial-details{text-align:left}.elementor-testimonial-wrapper .elementor-testimonial-meta.elementor-testimonial-image-position-top .elementor-testimonial-details,.elementor-testimonial-wrapper .elementor-testimonial-meta.elementor-testimonial-image-position-top .elementor-testimonial-image{display:block}.elementor-testimonial-wrapper .elementor-testimonial-meta.elementor-testimonial-image-position-top .elementor-testimonial-image{margin-bottom:20px}</style>		<div class="elementor-testimonial-wrapper">
+							<div class="elementor-testimonial-content">"Fiquei completamente satisfeito com o trabalho do Missias! Ele tem uma equipe de profissionais experientes, que entregam uma execução sob medida e no prazo, com atendimento personalizado. A qualidade é evidente em cada detalhe. Recomendo com certeza!"</div>
+			
+						<div class="elementor-testimonial-meta">
+				<div class="elementor-testimonial-meta-inner">
+					
+										<div class="elementor-testimonial-details">
+														<div class="elementor-testimonial-name">André Goes</div>
+																						<div class="elementor-testimonial-job">São Paulo</div>
+													</div>
+									</div>
+			</div>
+					</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-c2f9b6f" data-id="c2f9b6f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-285088f depoimento elementor-widget elementor-widget-testimonial" data-id="285088f" data-element_type="widget" data-widget_type="testimonial.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-testimonial-wrapper">
+							<div class="elementor-testimonial-content">"Contratar o Missias para a reforma da nossa casa foi a melhor decisão que tomamos. A equipe foi incrivelmente profissional e dedicada. Eles realmente transformaram nossa casa em um lugar que sempre sonhamos dentro do prazo combinado. Recomendo de olhos fechados!"</div>
+			
+						<div class="elementor-testimonial-meta">
+				<div class="elementor-testimonial-meta-inner">
+					
+										<div class="elementor-testimonial-details">
+														<div class="elementor-testimonial-name">Fernando e Rafaela</div>
+																						<div class="elementor-testimonial-job">São José dos Campos</div>
+													</div>
+									</div>
+			</div>
+					</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-5cbddfff" data-id="5cbddfff" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1f943576 depoimento elementor-widget elementor-widget-testimonial" data-id="1f943576" data-element_type="widget" data-widget_type="testimonial.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-testimonial-wrapper">
+							<div class="elementor-testimonial-content">"O Missias fez um trabalho excepcional na construção da nossa nova casa. Desde o início, ficamos impressionados com a atenção aos detalhes e o comprometimento com a qualidade. O resultado final superou todas as nossas expectativas. Não poderíamos estar mais felizes com nossa nova casa. Obrigado Missias!"</div>
+			
+						<div class="elementor-testimonial-meta">
+				<div class="elementor-testimonial-meta-inner">
+					
+										<div class="elementor-testimonial-details">
+														<div class="elementor-testimonial-name">Renato Faria</div>
+																						<div class="elementor-testimonial-job">São Paulo</div>
+													</div>
+									</div>
+			</div>
+					</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<div class="elementor-element elementor-element-93fec2d elementor-widget elementor-widget-video" data-id="93fec2d" data-element_type="widget" data-settings="{&quot;youtube_url&quot;:&quot;https:\/\/youtu.be\/8DJDbdXZlvg&quot;,&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;}" data-widget_type="video.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.16.0 - 14-09-2023 */
+.elementor-widget-video .elementor-widget-container{overflow:hidden;transform:translateZ(0)}.elementor-widget-video .elementor-wrapper{aspect-ratio:var(--video-aspect-ratio)}.elementor-widget-video .elementor-wrapper iframe,.elementor-widget-video .elementor-wrapper video{height:100%;width:100%;display:flex;border:none;background-color:#000}@supports not (aspect-ratio:1/1){.elementor-widget-video .elementor-wrapper{position:relative;overflow:hidden;height:0;padding-bottom:calc(100% / var(--video-aspect-ratio))}.elementor-widget-video .elementor-wrapper iframe,.elementor-widget-video .elementor-wrapper video{position:absolute;top:0;right:0;bottom:0;left:0}}.elementor-widget-video .elementor-open-inline .elementor-custom-embed-image-overlay{position:absolute;top:0;right:0;bottom:0;left:0;background-size:cover;background-position:50%}.elementor-widget-video .elementor-custom-embed-image-overlay{cursor:pointer;text-align:center}.elementor-widget-video .elementor-custom-embed-image-overlay:hover .elementor-custom-embed-play i{opacity:1}.elementor-widget-video .elementor-custom-embed-image-overlay img{display:block;width:100%;aspect-ratio:var(--video-aspect-ratio);-o-object-fit:cover;object-fit:cover;-o-object-position:center center;object-position:center center}@supports not (aspect-ratio:1/1){.elementor-widget-video .elementor-custom-embed-image-overlay{position:relative;overflow:hidden;height:0;padding-bottom:calc(100% / var(--video-aspect-ratio))}.elementor-widget-video .elementor-custom-embed-image-overlay img{position:absolute;top:0;right:0;bottom:0;left:0}}.elementor-widget-video .e-hosted-video .elementor-video{-o-object-fit:cover;object-fit:cover}.e-con-inner>.elementor-widget-video,.e-con>.elementor-widget-video{width:var(--container-widget-width);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-wrapper elementor-open-inline">
+			<div class="elementor-video"></div>		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-6b01e9a elementor-widget elementor-widget-video" data-id="6b01e9a" data-element_type="widget" data-settings="{&quot;youtube_url&quot;:&quot;https:\/\/youtu.be\/G-l6NgO3wUc&quot;,&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;}" data-widget_type="video.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-wrapper elementor-open-inline">
+			<div class="elementor-video"></div>		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-10c037b7 elementor-align-center elementor-mobile-align-justify elementor-widget elementor-widget-button" data-id="10c037b7" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-lg elementor-animation-grow" href="https://api.whatsapp.com/send?phone=5511947560100&#038;text=Ol%C3%A1%20Missias!%20Vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento.">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-left">
+				<i aria-hidden="true" class="fab fa-whatsapp"></i>			</span>
+						<span class="elementor-button-text">Solicite um orçamento</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-23c9fbf1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="23c9fbf1" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6b3cb5b7" data-id="6b3cb5b7" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-3a5479e9 elementor-widget elementor-widget-heading" data-id="3a5479e9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">FICOU COM ALGUMA DÚVIDA?</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-aecc1b7 elementor-widget elementor-widget-heading" data-id="aecc1b7" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><b>Confira as dúvidas</b><br>mais frequentes</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5c3c032e faq elementor-widget elementor-widget-accordion" data-id="5c3c032e" data-element_type="widget" data-widget_type="accordion.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-accordion">
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-1541" class="elementor-tab-title" data-tab="1" role="button" aria-controls="elementor-tab-content-1541" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">Preciso estar diariamente na obra?</a>
+					</div>
+					<div id="elementor-tab-content-1541" class="elementor-tab-content elementor-clearfix" data-tab="1" role="region" aria-labelledby="elementor-tab-title-1541"><p>Não, nossa equipe cuida de cada detalhe da sua obra e também te mantém informado de tudo que está acontecendo.</p></div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-1542" class="elementor-tab-title" data-tab="2" role="button" aria-controls="elementor-tab-content-1542" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">Qual a forma de pagamento?</a>
+					</div>
+					<div id="elementor-tab-content-1542" class="elementor-tab-content elementor-clearfix" data-tab="2" role="region" aria-labelledby="elementor-tab-title-1542"><p>Trabalhamos com formas de pagamento flexíveis de acordo com o porte da obra e a necessidade do cliente.</p></div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-1543" class="elementor-tab-title" data-tab="3" role="button" aria-controls="elementor-tab-content-1543" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">Preciso fazer compra de material básico como cimento e areia?</a>
+					</div>
+					<div id="elementor-tab-content-1543" class="elementor-tab-content elementor-clearfix" data-tab="3" role="region" aria-labelledby="elementor-tab-title-1543"><p>Não. Realizamos a compra de todo material necessário para sua obra.</p></div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-1544" class="elementor-tab-title" data-tab="4" role="button" aria-controls="elementor-tab-content-1544" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">Vocês fazem cronograma de obra?</a>
+					</div>
+					<div id="elementor-tab-content-1544" class="elementor-tab-content elementor-clearfix" data-tab="4" role="region" aria-labelledby="elementor-tab-title-1544"><p>Sim. Iremos te entregar um cronograma para você poder acompanhar todo o andamento sempre que quiser.</p></div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-1545" class="elementor-tab-title" data-tab="5" role="button" aria-controls="elementor-tab-content-1545" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">Qual é o custo estimado e quanto tempo leva para concluir minha reforma ou construção?</a>
+					</div>
+					<div id="elementor-tab-content-1545" class="elementor-tab-content elementor-clearfix" data-tab="5" role="region" aria-labelledby="elementor-tab-title-1545"><p>O custo estimado pode variar dependendo do objetivo e dos detalhes do projeto. oferecemos orçamentos personalizados, e o valor exato será determinado após uma avaliação detalhada das suas necessidades. Quanto ao prazo de conclusão, isso também dependerá do tamanho e da complexidade do projeto.</p></div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-1546" class="elementor-tab-title" data-tab="6" role="button" aria-controls="elementor-tab-content-1546" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">Vocês possuem seguro de obra?</a>
+					</div>
+					<div id="elementor-tab-content-1546" class="elementor-tab-content elementor-clearfix" data-tab="6" role="region" aria-labelledby="elementor-tab-title-1546"><p>Sim, oferecemos seguro de obra em parceria com a Porto Seguro. Isso garante que sua construção ou reforma esteja protegida contra eventuais imprevistos, proporcionando tranquilidade durante todo o processo.</p></div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-1547" class="elementor-tab-title" data-tab="7" role="button" aria-controls="elementor-tab-content-1547" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">Quem será o responsável pelo gerenciamento do projeto?</a>
+					</div>
+					<div id="elementor-tab-content-1547" class="elementor-tab-content elementor-clearfix" data-tab="7" role="region" aria-labelledby="elementor-tab-title-1547"><p>A nossa equipe assume a responsabilidade pelo gerenciamento do projeto. Missias, o especialista, supervisiona as operações e garante a qualidade e o andamento adequado do projeto.</p></div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-1548" class="elementor-tab-title" data-tab="8" role="button" aria-controls="elementor-tab-content-1548" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-right" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+								<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">Posso fazer alterações no projeto após o início da obra?</a>
+					</div>
+					<div id="elementor-tab-content-1548" class="elementor-tab-content elementor-clearfix" data-tab="8" role="region" aria-labelledby="elementor-tab-title-1548"><p>Sim, é possível fazer alterações no projeto após o início da obra, embora seja importante discutir essas mudanças com a nossa equipe. Podemos ajudar a avaliar o impacto das alterações no cronograma e no orçamento e trabalhar com você para realizar as modificações desejadas.</p></div>
+				</div>
+								</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-62d3bf6 elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="62d3bf6" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-18ab942" data-id="18ab942" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-9d82a1c elementor-widget elementor-widget-heading" data-id="9d82a1c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">ENTRE EM CONTATO</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1c0c6d3 elementor-widget elementor-widget-heading" data-id="1c0c6d3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><b>Chegou a hora </b>de construir ou reformar com quem entende do assunto!</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e138026 elementor-align-center elementor-mobile-align-justify elementor-widget elementor-widget-button" data-id="e138026" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-lg elementor-animation-grow" href="https://api.whatsapp.com/send?phone=5511947560100&#038;text=Ol%C3%A1%20Missias!%20Vim%20pelo%20site%20e%20gostaria%20de%20fazer%20um%20or%C3%A7amento.">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-left">
+				<i aria-hidden="true" class="fab fa-whatsapp"></i>			</span>
+						<span class="elementor-button-text">Solicite um orçamento</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-a0a0fc8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a0a0fc8" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3bda0bca" data-id="3bda0bca" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-15535162 elementor-widget elementor-widget-heading" data-id="15535162" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">JM Missias Empreiteiro LTDA | CNPJ: 49.858.297/0001-10<br><br>Copyright© 2023 | Todos os direitos reservados</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-16d295d elementor-widget elementor-widget-heading" data-id="16d295d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><a href="https://falcaomidia.com.br">Site desenvolvido pela agência Falcão Mídia</a></h2>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		<link rel='stylesheet' id='e-animations-css' href='https://missiasempreiteiro.com.br/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.16.3' media='all' />
+<script src='https://missiasempreiteiro.com.br/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=1.0.0' id='hello-theme-frontend-js'></script>
+<script id='happy-elementor-addons-js-extra'>
+var HappyLocalize = {"ajax_url":"https:\/\/missiasempreiteiro.com.br\/wp-admin\/admin-ajax.php","nonce":"42c667cf6b","pdf_js_lib":"https:\/\/missiasempreiteiro.com.br\/wp-content\/plugins\/happy-elementor-addons\/assets\/vendor\/pdfjs\/lib"};
+</script>
+<script src='https://missiasempreiteiro.com.br/wp-content/plugins/happy-elementor-addons/assets/js/happy-addons.min.js?ver=3.8.9' id='happy-elementor-addons-js'></script>
+<script src='https://missiasempreiteiro.com.br/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
+<script src='https://missiasempreiteiro.com.br/wp-content/plugins/pro-elements/assets/js/webpack-pro.runtime.min.js?ver=3.13.2' id='elementor-pro-webpack-runtime-js'></script>
+<script src='https://missiasempreiteiro.com.br/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.16.3' id='elementor-webpack-runtime-js'></script>
+<script src='https://missiasempreiteiro.com.br/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.16.3' id='elementor-frontend-modules-js'></script>
+<script src='https://missiasempreiteiro.com.br/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2' id='wp-polyfill-inert-js'></script>
+<script src='https://missiasempreiteiro.com.br/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11' id='regenerator-runtime-js'></script>
+<script src='https://missiasempreiteiro.com.br/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script src='https://missiasempreiteiro.com.br/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1' id='wp-hooks-js'></script>
+<script src='https://missiasempreiteiro.com.br/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef' id='wp-i18n-js'></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/missiasempreiteiro.com.br\/wp-admin\/admin-ajax.php","nonce":"3dfcf04507","urls":{"assets":"https:\/\/missiasempreiteiro.com.br\/wp-content\/plugins\/pro-elements\/assets\/","rest":"https:\/\/missiasempreiteiro.com.br\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"pt_BR","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/missiasempreiteiro.com.br\/wp-content\/plugins\/pro-elements\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script src='https://missiasempreiteiro.com.br/wp-content/plugins/pro-elements/assets/js/frontend.min.js?ver=3.13.2' id='elementor-pro-frontend-js'></script>
+<script src='https://missiasempreiteiro.com.br/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2' id='elementor-waypoints-js'></script>
+<script src='https://missiasempreiteiro.com.br/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2' id='jquery-ui-core-js'></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Compartilhar no Facebook","shareOnTwitter":"Compartilhar no Twitter","pinIt":"Fixar","download":"Baixar","downloadImage":"Baixar imagem","fullscreen":"Tela cheia","zoom":"Zoom","share":"Compartilhar","playVideo":"Reproduzir v\u00eddeo","previous":"Anterior","next":"Pr\u00f3ximo","close":"Fechar","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Celular em modo retrato","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Celular em modo paisagem","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Retrato","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Paisagem do tablet","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.16.3","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"additional_custom_breakpoints":true,"container":true,"e_swiper_latest":true,"theme_builder_v2":true,"hello-theme-header-footer":true,"landing-pages":true,"e_global_styleguide":true,"page-transitions":true,"notes":true,"loop":true,"form-submissions":true,"e_scroll_snap":true},"urls":{"assets":"https:\/\/missiasempreiteiro.com.br\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"title","hello_footer_logo_type":"logo"},"post":{"id":37,"title":"missiasempreiteiro.com.br","excerpt":"","featuredImage":false}};
+</script>
+<script src='https://missiasempreiteiro.com.br/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.16.3' id='elementor-frontend-js'></script>
+<script src='https://missiasempreiteiro.com.br/wp-content/plugins/pro-elements/assets/js/elements-handlers.min.js?ver=3.13.2' id='pro-elements-handlers-js'></script>
+	</body>
 </html>
